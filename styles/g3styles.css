@@ -162,3 +162,50 @@ nav a {
                     padding-left: 50px;
                 }
 }
+
+/* Main Styles */
+/* Team Styles */
+.team-container{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 50px 270px;
+}
+.team-img > img{
+    width: 182px;
+    height: 182px;    
+}
+.team-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.btn2{
+    border-radius: 8px;
+        background: #FF900E;
+        color: #FFF;
+        font-size: 20px;
+        
+            font-weight: 600;
+            border: none;
+            width: 180px;
+            height: 44px;
+}
+.team-title{
+    color:  #727272;
+        font-size: 38px;
+        font-weight: 500;
+}
+.team-title-middle{
+    color: #131313;
+}
+.team-title-last{
+    color: #FF900E;
+}
+.team-p{
+    color: #727272;
+        font-size: 16px;
+        font-weight: 400;
+        padding-top: 20px;
+        padding-bottom: 20px;
+}
