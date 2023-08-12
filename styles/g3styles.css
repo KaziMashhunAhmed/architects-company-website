@@ -229,7 +229,8 @@ nav a {
     }
 
     .header-container,
-    .team-container {
+    .team-container,
+    .feature {
         flex-direction: column;
     }
 
@@ -270,7 +271,51 @@ nav a {
         width: 140px;
         height: 50px;
     }
+
+    .feature {
+        gap: 50px;
+        margin-left: 40px;
+        margin-right: 140px;
+    }
+
+    .feature-title {
+        padding-top: 0px;
+        font-size: 30px;
+    }
+
+    .card {
+        width: 300px;
+        height: 187px;
+    }
+
+    .card .card-title .card-p {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .feature-img>img {
+        width: 230px;
+        height: 500px;
+        margin-left: 60px;
+
+    }
+
+    .exp {
+
+        width: 120px;
+        height: 70px;
+        position: relative;
+        bottom: 50px;
+        right: 5px;
+    }
+
+    .exp h2 {
+
+        font-size: 25px;
+        padding-top: 10px;
+    }
 }
+
 
 /* For Medium Device */
 @media screen and (min-width:576.01px) and (max-width:992px) {
@@ -319,4 +364,46 @@ nav a {
     .team-container {
         padding: 50px 50px;
     }
+        .feature {
+            
+            flex-direction: column;
+            gap: 50px;
+            align-items: center;
+            margin-left: 30px;
+            margin-right: 40px;
+            margin-top: 20px;
+        }
+
+        .card-container{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+                .card {
+                    width: 340px;
+                    height: 207px;
+                    margin-right: 10px;
+                }
+    
+
+    .feature-img>img {
+        width: 330px;
+        height: 550px;
+        margin-left: 60px;
+
+    }
+
+    .exp {
+
+        width: 100px;
+        height: 60px;
+        position: relative;
+        bottom: 30px;
+        right: -10px;
+    }
+
+    .exp h2 {
+
+        font-size: 15px;
+        padding-top: 10px;
+    } 
 }
