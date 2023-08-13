@@ -301,6 +301,24 @@ nav a {
     height: 50px;
 
 }
+/* Footer Styles */
+footer{
+    border-radius: 8px;
+        background: #FFF4E7;
+        margin: 130px 100px 200px 240px;
+        width: 800px;
+            height: 70px;
+            text-align: center;
+            
+}
+.footer-p{
+    color: #424242;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        padding-top: 28px;
+        padding-bottom: 40px;
+}
 
 /* Responsive Media */
 /* For Small Device */
@@ -449,6 +467,18 @@ nav a {
         position: relative;
         right: 220px;
     }
+        footer {
+            margin: auto;
+            width: 320px;
+            height: 70px;
+            margin-bottom: 50px;
+    
+        }
+                .footer-p {
+                    font-size: 12px;
+                    padding-top: 20px;
+                    
+                }
 }
 
 
@@ -593,4 +623,17 @@ nav a {
         text-align: center;
         position: relative;
     }
+        footer {
+            margin: auto;
+            width: 620px;
+            height: 70px;
+            margin-bottom: 50px;
+    
+        }
+    
+        .footer-p {
+            font-size: 14px;
+            padding-top: 25px;
+    
+        }
 }
