@@ -220,6 +220,65 @@ nav a {
     padding: 0px 10px 10px 10px;
 }
 
+/* Facts Style */
+.facts-container {
+    margin: 150px 110px 50px 140px;
+}
+
+.facts-container .feature-title {
+    text-align: start;
+    padding-left: 0px;
+}
+
+.facts-container .feature-p {
+    text-align: start;
+}
+
+.facts-container .feature-title {
+    border-left: none;
+
+}
+
+.facts-card-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+    text-align: center;
+}
+
+.facts-card {
+    width: 850px;
+    height: 155px;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+.facts-card img {
+    text-align: center;
+    margin-top: 25px;
+    width: 30%;
+}
+
+.facts-card h3 {
+    color: #424242;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 7px;
+
+}
+
+.facts-card p {
+    color: #727272;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 10px;
+
+}
 
 /* Responsive Media */
 /* For Small Device */
@@ -364,26 +423,28 @@ nav a {
     .team-container {
         padding: 50px 50px;
     }
-        .feature {
-            
-            flex-direction: column;
-            gap: 50px;
-            align-items: center;
-            margin-left: 30px;
-            margin-right: 40px;
-            margin-top: 20px;
-        }
 
-        .card-container{
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-        }
-                .card {
-                    width: 340px;
-                    height: 207px;
-                    margin-right: 10px;
-                }
-    
+    .feature {
+
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+        margin-left: 30px;
+        margin-right: 40px;
+        margin-top: 20px;
+    }
+
+    .card-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card {
+        width: 340px;
+        height: 207px;
+        margin-right: 10px;
+    }
+
 
     .feature-img>img {
         width: 330px;
@@ -405,5 +466,5 @@ nav a {
 
         font-size: 15px;
         padding-top: 10px;
-    } 
+    }
 }
